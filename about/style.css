@@ -1,0 +1,44 @@
+.title {
+    color: var(--dark);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+}
+.description {
+    max-width: 60%;
+    margin-left: 20%;
+    color: var(--dark);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2pc;
+}
+.header {
+    padding: 100px;
+    text-align: center;
+    background: var(--background);
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+    z-index: -1;
+    background-position: top;
+  }
+  .highlight {
+    color: var(--primary);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+  }
+
+  .bolder {
+    font-weight: 600;
+  }
+  .subtitle {
+    color: var(--primary);
+    text-align: left;
+    font-size: 1.5rem;
+  }

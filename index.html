@@ -3,113 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Game Studios</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Language</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content.css">
+
 </head>
 <body>
-    <button id="top" class="back-to-top" onclick="topFunction();"><span class="material-symbols-rounded">arrow_upward</span></button>
-
-    <nav class="size-max top">
-        <div class="logo">Lingo</div>
-        <div class="nav-items">
-            <a href="">HOME</a>
-            <a href="">PLANS</a>
-            <a href="">LOG IN</a>
-        </div>
-    </nav>
-
-    <section class="hero size-max">
-        <div class="grid">
-            <div class="grid-item hero-left">
-                <div>
-                <h1>Language App</h1>
-                <h2>Slogan Here</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ea a neque iure, ab harum quae veritatis sequi tempora temporibus.
-                </p>
-                <button>Try Free</button>
-                </div>
-            </div>
-            <div class="grid-item">
-                <img src="images/globe_24dp_35B2D8_FILL0_wght400_GRAD0_opsz24.svg" alt="picture">
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="about size-max">
-        <div class="grid">
-            <div class="grid-item about-right">
-                <img src="images/globe_24dp_35B2D8_FILL0_wght400_GRAD0_opsz24.svg" alt="picture">
-            </div>
-            <div class="grid-item">
-                <div>
-                <h2>Title 1</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minima corporis rerum aperiam possimus odio cumque, hic doloremque quam ut in commodi illo,<br><br>ducimus est autem aliquid consectetur dolores quidem! Voluptas ipsam illo aperiam ratione neque, autem corrupti dignissimos voluptatem!
-                </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="services size-max">
-        <h2>Title 2</h2><br><br>
-        <div class="services-grid">
-            <div>
-                <span class="material-symbols-rounded">language</span>
-                <b>Point 1</b>
-            </div>
-            <div>
-                <span class="material-symbols-rounded">globe</span>
-                <b>Point 2</b>
-            </div>
-            <div>
-                <span class="material-symbols-rounded">book</span>
-                <b>Point 3</b>
-            </div>
-        </div>
-    </section>
-    <section class="services-2 size-max">
-        <div class="grid">
-            <div class="grid-item">
-                <div>
-                <h2>Title 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas accusantium atque voluptatibus, fugiat. <br><br> odit quia quos ipsum aspernatur delectus explicabo magnam facere ducimus a, dolor itaque maiores tempore ea!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla aut aspernatur aperiam quis, doloribus dicta tenetur excepturi earum dolor.</p>
-                </div>
-            </div>
-            <div class="grid-item">
-                <img src="images/globe_24dp_35B2D8_FILL0_wght400_GRAD0_opsz24.svg" alt="picture">
-            </div>
-        </div>
-    </section>
-    <!--<section class="cta">
+    <nav id="myTopnav">
+        <a href="#home" class="logo">LOGO</a>
+        <div class="topnav" >
+            <a href="#"><b>Log In</b></a>
+            <a href="/about/">About</a>
+            <a href="#">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="material-symbols-rounded">menu</span>
+            </a>
+          </div>
+        </nav>
+    <section class="hero-section size-max">
         <div class="grid size-max">
-            <div>
-                <h2>Get Started</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dignissimos iste odio repellendus     enim corrupti.</p>
-            </div>
-            <div class="cta-right">
-                <button class="cta-main-btn">Contact Us</button>
-                <button class="cta-sub-btn">Learn More</button>
-            </div>
+        <div class="grid-section">
+            <div class="left">
+            <p class="hero-title">Welcome to<br><p class="hero-title hero-gradient-title">Languages</p></p>
+        <p class="hero-description">Welcome to language app.<br>Sign up and start learning for free!</p>
+            <button class="hero-button" onclick="window.location.href='/games'">Games<span class="material-symbols-rounded">play_arrow</span></button>
         </div>
-    </section>-->
-    <section class="footer">
-        <h2>Language</h2>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Plans</a></li>
-            <li><a href="">Account</a></li>
-        </ul>
-        <ul>
-            <li><span class="material-symbols-rounded">email</span></li>
-            <li><span class="material-symbols-rounded">call</span></li>
-        </ul>
-        <p>Language | 2024</p>
+            </div>
+        <div class="grid-section">
+            <img src="../images/globe_24dp_35B2D8_FILL0_wght400_GRAD0_opsz24.svg" alt="Hexagons">
+        </div>
+        </div>
     </section>
+
+    
 </body>
 <script src="main.js"></script>
+<script src="../content.js"></script>
 </html>
