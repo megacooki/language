@@ -1,0 +1,89 @@
+#nav {
+  height: 70px;
+  padding: 15px 1pc;
+  display: flex;
+}
+.flag {
+height: 100%;
+border-radius: 5px;
+}
+#nav h1 {
+  text-align: right;
+  width: 100%;
+  font-size: 1.9rem;
+}
+.cont {
+  margin: 1pc;
+  padding: 0 calc((100vw - 500px) / 2);
+  margin-top: 70px;
+}
+h1 {
+  text-align: center;
+  color: var(--dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1pc;
+}
+h2 {
+  text-align: center;
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1pc;
+}
+.highlight {
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.lessons {
+  background-color: var(--background);
+  padding: 1pc;
+  border-radius: 5px;
+}
+.lessons ul {
+  list-style-type: none;
+}
+.lessons li {
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 0.5pc 0.5pc;
+}
+.lessons .active {
+  background-color: var(--primary);
+  color: var(--background);
+  border-radius: 5px;
+}
+
+.NLcontainer {
+  display: flex;
+}
+.next-lesson {
+  background-color: var(--primary);
+  padding: 1pc;
+  border-radius: 5px;
+  color: var(--accent);
+}
+.next-lesson p {
+  color: var(--background);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  width: 100%;
+
+}
+.next-lesson a {
+  text-align: right;
+  float: right;
+  color: var(--primary);
+  padding: 0.5pc 2pc;
+  text-decoration: none;
+  background-color: var(--background);
+  border-radius: 5px;
+}
+.next-lesson h2 {
+  color: var(--background);
+  text-decoration: none;
+}
