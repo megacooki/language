@@ -18,10 +18,14 @@ body {
   height: 50px;
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
+  padding: 0 calc((100vw - 400px) / 2);
 }
 .cont {
   width: 100%;
   height: 100%;
+}
+.innercont {
+  padding: 1pc;
 }
 .bar-container {
   padding: 12.5px;
@@ -51,12 +55,13 @@ body {
   font-weight: 700;
 }
 .cont {
-  padding: 1pc;
+  padding: 0 calc((100vw - 400px) / 2);
 }
 .cont h2 {
   font-family: "Asap", system-ui;
   margin-bottom: 1pc;
   font-size: 1.8rem;
+  color: var(--dark);
 }
 .cont button {
   display: block;
@@ -70,4 +75,6 @@ body {
   background-color: var(--background);
   -webkit-box-shadow: 0 0 10px d9d9d9;
         box-shadow: 0 0 10px #d9d9d9;
+  color: var(--dark);
+  font-family: "Asap", system-ui;
 }
