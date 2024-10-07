@@ -42,3 +42,14 @@
     text-align: left;
     font-size: 1.5rem;
   }
+
+  @media screen and (max-width: 850px) {
+    .header {
+        padding: 10px;
+        padding-top: 100px;
+    }
+    .description {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}
