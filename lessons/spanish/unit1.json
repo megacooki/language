@@ -8,7 +8,7 @@
         },
         "2" : {
             "activity": "blocks",
-            "translation": "Hi, my name is John",
+            "translation": "Hi, my name is Duo",
             "options": ["Hola", "me llamo", "John", "gusta", "guitarra"],
             "answer": "Hola me llamo John",
             "end_message": "Hola me llamo John - Hi, my name is John"
