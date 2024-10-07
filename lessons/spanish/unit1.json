@@ -2,6 +2,7 @@
     "1": {
         "1" : {
             "activity": "options",
+            "translation": "Hello",
             "options": ["Hola", "Me llamo", "Adios", "Quiero"],
             "answer": "Hola",
             "end_message": "Hola - Hello"
@@ -15,7 +16,10 @@
         },
         "3" : {
             "activity": "options",
+            "translation": "Hello",
             "options": ["Hola", ""]
+            "answer": "Hola",
+            "end_message": "Hola - Hello"
         },
         "4" : {
             
