@@ -3,7 +3,8 @@
         "1": {
             "activity": "info",
             "title": "Unit 1 Lesson 1",
-            "description": "In this lesson we will practise the following words:"
+            "description": "In this lesson we will practise the following words:",
+            "img-url": "https://megacooki.github.io/language/images/"
         }
         "2" : {
             "activity": "options",
