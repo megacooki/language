@@ -9,26 +9,30 @@
         "2" : {
             "activity": "options",
             "translation": "Hello",
-            "options": ["Hola", "Me llamo", "Adios", "Quiero"],
+            "options": ["Hola", "Me llamo", "Adios", "Buenas días"],
             "answer": "Hola",
             "end_message": "Hola - Hello"
         },
         "3" : {
             "activity": "blocks",
-            "translation": "Hello, my name is Juan",
-            "options": ["Hola", "me llamo", "Juan", "gusta", "guitarra"],
+            "translation": "Hello, my name is Juan.",
+            "options": ["Hola", "me llamo", "Juan", "fénomenal", "buenas noches"],
             "answer": "Hola me llamo Juan",
-            "end_message": "Hola me llamo Juan - Hi, my name is Juan"
+            "end_message": "Hola, me llamo Juan. - Hello, my name is Juan."
         },
         "4" : {
             "activity": "options",
-            "translation": "Hello",
-            "options": ["Hola", ""]
-            "answer": "Hola",
-            "end_message": "Hola - Hello"
+            "translation": "Good morning",
+            "options": ["Adios", "Buenos días", "¿Cómo te llamas?", "Hasta mañana"]
+            "answer": "Buenos días",
+            "end_message": "Buenos días - Good morning"
         },
         "5" : {
-            
+            "activity": "blocks",
+            "translation": "Good evening, how are you?.",
+            "options": ["hasta la vista", "¿cómo estás?", "Buenas tardes", "mal", "¿qué tal?"],
+            "answer": "Buenas tardes, ("¿cómo estás?" OR "¿qué tal?")"
+            "end_message": "Buenas tardes, ("¿cómo estás?" OR "¿qué tal?") - Good evening, how are you?."     
         },
         "6" : {
             
