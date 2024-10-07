@@ -8,13 +8,14 @@
         },
         "2" : {
             "activity": "blocks",
-            "translation": "Hi, my name is Duo",
-            "options": ["Hola", "me llamo", "John", "gusta", "guitarra"],
-            "answer": "Hola me llamo John",
-            "end_message": "Hola me llamo John - Hi, my name is John"
+            "translation": "Hello, my name is Juan",
+            "options": ["Hola", "me llamo", "Juan", "gusta", "guitarra"],
+            "answer": "Hola me llamo Juan",
+            "end_message": "Hola me llamo Juan - Hi, my name is Juan"
         },
         "3" : {
-            
+            "activity": "options",
+            "options": ["Hola", ""]
         },
         "4" : {
             
