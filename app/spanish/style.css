@@ -27,6 +27,11 @@ body {
 .innercont {
   padding: 1pc;
 }
+.innercont img {
+  width: 80%;
+  margin-left: 10%;
+  /*border-radius: 10px;*/
+}
 .bar-container {
   padding: 12.5px;
 }

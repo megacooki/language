@@ -5,7 +5,7 @@
             "title": "Unit 1 Lesson 1",
             "description": "In this lesson we will practise the following words:",
             "img-url": "https://megacooki.github.io/language/images/"
-        }
+        },
         "2" : {
             "activity": "options",
             "translation": "Hello",
@@ -23,7 +23,7 @@
         "4" : {
             "activity": "options",
             "translation": "Good morning",
-            "options": ["Adios", "Buenos días", "¿Cómo te llamas?", "Hasta mañana"]
+            "options": ["Adios", "Buenos días", "¿Cómo te llamas?", "Hasta mañana"],
             "answer": "Buenos días",
             "end_message": "Buenos días - Good morning"
         },
@@ -31,8 +31,8 @@
             "activity": "blocks",
             "translation": "Good evening, how are you?.",
             "options": ["hasta la vista", "¿cómo estás?", "Buenas tardes", "mal", "¿qué tal?"],
-            "answer": "Buenas tardes, ("¿cómo estás?" OR "¿qué tal?")"
-            "end_message": "Buenas tardes, ("¿cómo estás?" OR "¿qué tal?") - Good evening, how are you?."     
+            "answer": "Buenas tardes, ('¿cómo estás?' OR '¿qué tal?')",
+            "end_message": "Buenas tardes, ('¿cómo estás?' OR '¿qué tal?') - Good evening, how are you?."
         },
         "6" : {
             
