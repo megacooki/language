@@ -1,12 +1,13 @@
 {
     "1": {
         "1": "Lesson 1 - Greetings",
-        "2": "Lesson 2 - Adios",
-        "3": "Lesson 3 - Numbers"
+        "2": "Lesson 2 - Hello And Goodbye",
+        "3": "Lesson 3 - Basic Conversations",
+        "4": "Lesson 4 - Grammar"
     },
     "2": {
-        "1": "Lesson 1 - Hehe",
-        "2": "Lesson 2 - Hola",
-        "3": "Lesson 3 - Soy Dora"
+        "1": "Lesson 1 - Grammar",
+        "2": "Lesson 2 - Names",
+        "3": "Lesson 3 - Questions"
     }
 }
