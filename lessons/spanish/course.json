@@ -1,16 +1,16 @@
 {
-    "1": {
-        "1": "Lesson 1 - Greetings",
-        "2": "Lesson 2 - Hello And Goodbye",
-        "3": "Lesson 3 - Basic Conversations",
-        "4": "Lesson 4 - Quuestions",
-        "5": "Lesson 5 - Adjetives",
-    },
-    "2": {
-        "1": "Lesson 1 - Grammar",
-        "2": "Lesson 2 - Names",
-        "3": "Lesson 3 - Questions",
-        "4": "Lesson 4 - Yeehee",
-        "5": "Lesson 5 - Recap"
-    }
+	"1": {
+		"1": "Lesson 1 - Greetings",
+		"2": "Lesson 2 - Hello And Goodbye",
+		"3": "Lesson 3 - Basic Conversations",
+		"4": "Lesson 4 - Quuestions",
+		"5": "Lesson 5 - Adjetives"
+	},
+	"2": {
+		"1": "Lesson 1 - Grammar",
+		"2": "Lesson 2 - Names",
+		"3": "Lesson 3 - Questions",
+		"4": "Lesson 4 - Yeehee",
+		"5": "Lesson 5 - Recap"
+	}
 }
